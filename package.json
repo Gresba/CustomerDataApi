@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Gresba/CustomerDataApi/issues"
   },
-  "homepage": "https://github.com/Gresba/CustomerDataApi#readme"
+  "homepage": "https://github.com/Gresba/CustomerDataApi#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "type": "module"
 }
