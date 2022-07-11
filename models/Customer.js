@@ -5,7 +5,7 @@ const CustomerSchema = mongoose.model("Customer", {
     Name: String,
     Email: String,
     AmountSpent: Number,
-    Cards: [Card]
+    Cards: [{ type: Schema.Types.ObjectId, ref: "cards" }]
 })
 
 export default CustomerSchema;
