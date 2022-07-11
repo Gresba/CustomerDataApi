@@ -1,6 +1,8 @@
 import mongoose from "mongoose"
 import Card from "./Card.js"
 
+const Schema = mongoose.Schema;
+
 const CustomerSchema = mongoose.model("Customer", {
     Name: String,
     Email: String,
