@@ -7,4 +7,4 @@ let Card = new mongoose.Schema({
     "Card_Type": String
 })
 
-export default Card;
+export default mongoose.model("Card", Card);
