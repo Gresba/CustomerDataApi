@@ -1,0 +1,32 @@
+[
+    {
+        "Card_Number": "4384-5439-4234-5442",
+        "Expiration": "06/29",
+        "CVV": 324,
+        "Card_Type": "Visa"
+    },
+    {
+        "Card_Number": "3823-8348-0193-9949",
+        "Expiration": "02/22",
+        "CVV": 934,
+        "Card_Type": "Visa"
+    },
+    {
+        "Card_Number": "1314-3239-4004-5342",
+        "Expiration": "07/27",
+        "CVV": 300,
+        "Card_Type": "Mastercard"
+    },
+    {
+        "Card_Number": "9304-8311-1123-4324",
+        "Expiration": "11/31",
+        "CVV": 912,
+        "Card_Type": "American Express"
+    },
+    {
+        "Card_Number": "3823-8348-0001-9349",
+        "Expiration": "01/27",
+        "CVV": 944,
+        "Card_Type": "Visa"
+    }
+]

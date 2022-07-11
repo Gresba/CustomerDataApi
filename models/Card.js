@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 let Card = new mongoose.Schema({
     "Card_Number": String,
-    "Expiration": Date,
+    "Expiration": String,
     "CVV": Number,
     "Card_Type": String
 })
