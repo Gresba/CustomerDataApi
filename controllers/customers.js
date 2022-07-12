@@ -5,11 +5,11 @@ export const getCustomers = (req, res) => {
     Customer.find()
         .then((customers) => {
             res.json(customers)
+            console.log("Got customers")
         })
         .catch((error) => { 
-            req.status(500);
+            req.status(500).json({message: error.message});
             console.error(error)
-            res.json({message: error.message})
         })
 };
 
