@@ -52,7 +52,7 @@ export const deleteCard = (req, res) => {
             if(card)
             {
                 console.log("Card deleted" + id);
-                res.send("Deleted Card" + id):
+                res.send("Deleted Card" + id);
             }   
             else
                 throw new Error("Card Not Found")

@@ -1,1 +1,20 @@
-
+[
+    {
+        "Name": "Paul Kim",
+        "Email": "paki@gmail.com",
+        "AmountSpent": 43330.00,
+        "Cards": ["62cc8bba640b694cad6d569b"]
+    },
+    {
+        "Name": "John Doe",
+        "Email": "jodo@gmail.com",
+        "AmountSpent": 432430.00,
+        "Cards": ["62cc8bba640b694cad6d569c", "62cc8bba640b694cad6d569d"]
+    }, 
+    {
+        "Name": "Calel Onan",
+        "Email": "roowooo@gmail.com",
+        "AmountSpent": 13.00,
+        "Cards": ["62cc8bba640b694cad6d569e"]
+    }
+]
