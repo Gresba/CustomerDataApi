@@ -14,7 +14,11 @@ app.use(express.json());
 app.use("/", routes);
 
 // Listen for different requests
-app.listen(PORT, () => {
-    console.log("Listening on port " + PORT + "...");
-})
-
+db.on("connected", () => {
+  console.clear();
+  app.listen(PORT, () => {
+    console.log(
+      `Express server running in development on: http://localhost:${PORT} `
+    );
+  });
+});
