@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 4000;
 
 // Allows the app to process json
 app.use(express.json());
+
 app.use("/", routes);
 
 // Listen for different requests

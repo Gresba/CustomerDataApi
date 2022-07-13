@@ -3,11 +3,11 @@ import Card from "./Card.js"
 
 const Schema = mongoose.Schema;
 
-const CustomerSchema = mongoose.model("Customer", {
+const CustomerSchema = mongoose.model("customers", {
     Name: String,
     Email: String,
     AmountSpent: Number,
-    Cards: [{ type: Schema.Types.ObjectId, ref: "cards" }]
+    Cards: [Schema.Types.ObjectId, "cards"] 
 })
 
 export default CustomerSchema;

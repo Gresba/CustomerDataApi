@@ -10,4 +10,4 @@ routes.post("/customers", controller.createCustomer)
 routes.put("/customers/:id", controller.updateCustomer)
 routes.delete("/customers/:id", controller.deleteCustomer)
 
-export default Router;
+export default routes;
