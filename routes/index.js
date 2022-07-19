@@ -9,7 +9,7 @@ router.get("/", (req, res) => res.send("Root!"))
 router.get("/api", (req, res) => res.send("API ROOT"))
 
 // Get routes from other sections of the API
-router.use("/", cardRoutes);
-router.use("/", customerRoutes);
+router.use("/api/", cardRoutes);
+router.use("/api/", customerRoutes);
 
 export default router;
