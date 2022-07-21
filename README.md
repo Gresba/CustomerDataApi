@@ -34,6 +34,16 @@ The API is implements all CRUD functionalities for the data stored.
 }
 ```
 
+**Customer Model**
+```
+{
+  "Name": String,
+  "Email": String,
+  "AmountSpent": Number,
+  "Cards": [Card],
+}
+```
+
 ### **Cards**
 
 **End-points**
@@ -53,5 +63,15 @@ The API is implements all CRUD functionalities for the data stored.
   "CVV": 324,
   "Card_Type": "Visa",
   "__v": 0
+}
+```
+
+**Card Model**
+```
+{
+  "Card_Number": String,
+  "Expiration": String,
+  "CVV": Number,
+  "Card_Type": String,
 }
 ```
