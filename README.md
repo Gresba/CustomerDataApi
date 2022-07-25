@@ -18,7 +18,7 @@ The API is implements all CRUD functionalities for the data stored.
 
 **End-points**
 
-- `GET /customers` - Get all customers\n
+- `GET /customers` - Get all customers
 - `GET /customers/:id` - Get a customer by their id
 - `POST /customers` - Add a new customer
 - `PUT /customers/:id` - Update some information about a customer with their id
